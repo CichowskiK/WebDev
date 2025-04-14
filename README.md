@@ -1,2 +1,2 @@
 # WebDev
-Web Development projects
+Small Web Development projects
