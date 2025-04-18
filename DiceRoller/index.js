@@ -14,8 +14,8 @@ let text=``;
 let i=0;
 
 Submit.onclick = function() {
-    max=numOfDices.value;
-    dices= numOfSides.value;
+    dices=numOfDices.value;
+    max= numOfSides.value;
 }
 
 
