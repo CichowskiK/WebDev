@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-color: powderblue;
+    font-size: 1rem;
+    font-family: "Roboto";
+}
+
+form {
+    background-color: gainsboro;
+    max-width: 30%;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 5%;
+    border: double 5px rgba(0, 162, 255, 0.607);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.537);
+}
+
+input {
+    margin: 1vw;
+}
+
+button {
+    background-color: red;
+    border-radius: 10%;
+    border: solid 3px rgba(255, 0, 230, 0.685);
+    padding: 1em;
+    margin: 1em;
+    transition: background-color 0.25s;
+}
+
+button:hover {
+    background-color: blue;
+}
