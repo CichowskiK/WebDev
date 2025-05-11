@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background-color: powderblue;
+    font-size: 1rem;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+form {
+    background-color: gainsboro;
+    max-width: 30%;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 5%;
+    border: double 5px rgba(0, 162, 255, 0.607);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.537);
+}
+
+div {
+    display: inline-flex;
+}
+
+.Operator, .Number {
+    padding: 10px;
+    border-radius: 12px;
+    margin: 5px;
+}
+
+
+.Number {
+    background-color: hsl(180, 80%, 30%, 0.2)
+}
+
+.Number:hover {
+    background-color: hsl(180, 80%, 20%, 0.2)
+}
+
+.Operator {
+    background-color: rgba(128, 128, 128, 0.536);
+}
+
+.Operator:hover {
+    background-color: rgba(76, 76, 76, 0.536);
+}
+
+.Number:active, .Operator:active {
+    background-color: hsl(50, 90%, 50%);
+}
+
+#Result {
+    background-color: hsl(0, 0%, 50%);
+    color: hsl(0, 0%, 90%);
+    width: 85%;
+    height: 15%;
+    padding: 3px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 1.5em;
+}
