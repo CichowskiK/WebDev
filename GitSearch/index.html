@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <hr>
+    <div class="header-container">
+        <div style="background-color: black; width: 50px; height: 50px; border-radius: 5px;"></div>
+        <h1>GitHub Repository Finder</h1>
+    </div>
+
+
+    <select id="language" name="language"> 
+        <option value="" selected>Select a language</option>
+    </select>
+
+    <div id="display">
+        <label id="name"></label>
+        <p id="description"></p>
+        <label id="forks"></label>
+        <label id="score"></label>
+        <label id="issues"></label>  <br><br>
+        <a id="url" href="" target="_blank"></a> 
+    </div>
+
+    <button id="myButton">Find Repository</button>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;        /* żeby rodzice mieli pełną wysokość */
+}
+
+body {
+  display: flex;
+  flex-direction: column;    /* elementy ułożone pionowo */
+  justify-content: center;   /* wyśrodkowanie w pionie */
+  align-items: center;       /* wyśrodkowanie w poziomie */
+  height: 100vh;
+  margin: 0;           /* 100% wysokości widoku */
+  font-family: Roboto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#display {
+    min-height: 150px;
+    width: 90%;
+    background-color: hsl(185, 30%, 60%);
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+}
+
+button {
+    width: 90%;
+    min-height: 100px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2vw;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 85%);
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 80%);
+}
+
+button:active {
+  background-color: hsl(0, 0%, 70%);
+}
+
+select {
+    width: 90%;
+    min-height: 100px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 2vw;
+    background-color: hsl(0, 0%, 85%);
+    font-size: large;
+    font-weight: bold;
+}
+
+a{
+  color:blue;
+}
+
+a:hover{
+  color:red;
+}
+
+a:active{
+  color:yellow
+}
